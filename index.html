@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Cancer-Detection</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body style="height: 713px;">
+	<header>
+		<div id="logo">Cancer<span id="logo-s">Detection</span></div>
+		<span class="sign">
+		<a class="act" href="login.html">Sign-in</a>
+		<a class="act" href="contact.html">Contact</a></span>
+	</header>
+    <div class="slider">
+		<div class="myslide fade">
+			<div class="txt">
+				<a href="html/braintumour.html"><h1>Brain Tumor</h1>
+				<p>Causes, Symptoms<br>and it's Precautions and Preventions</p></a>
+			</div>
+			<img src="img/brain_tumour.jpg" style="width: 100%; height: 100%;">
+		</div>
+		<div class="myslide fade">
+			<div class="txt">
+				<a href="html/lungcancer.html"><h1>Lung Cancer</h1>
+				<p>Causes, Symptoms<br>and it's Precautions and Preventions</p></a>
+			</div>
+			<img src="img/lung_cancer.jpg" style="width: 100%; height: 100%;">
+		</div>
+		<div class="myslide fade">
+			<div class="txt">
+				<a href="html/breastcancer.html"><h1>Breast Cancer</h1>
+				<p>Causes, Symptoms<br>and it's Precautions and Preventions</p></a>
+			</div>
+			<img src="img/breast_cancer.jpg" style="width: 100%; height: 100%;">
+		</div>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+	</div>
+<script src="jsfile.js"></script>
+</body>
+</html>
